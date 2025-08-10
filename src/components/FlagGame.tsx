@@ -114,11 +114,7 @@ const FlagGame: React.FC = () => {
   return (
     <div className="game-container">
       <div className="header">
-        <h1>🏁 Guess the Flag</h1>
-        <div className="score-board">
-          <span>Score: {score}</span>
-          <span>Question: {totalQuestions + 1}/10</span>
-        </div>
+        <h1>Guess the Flag</h1>
       </div>
 
       <div className="flag-display">
